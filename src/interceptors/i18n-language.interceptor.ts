@@ -34,7 +34,7 @@ export class I18nLanguageInterceptor implements NestInterceptor {
 
     const ctx = getContextObject(context);
 
-    if (ctx) {
+    if (ctx.headers) {
       ctx.i18nService = this.i18nService;
 
       for (const r of this.i18nResolvers) {
