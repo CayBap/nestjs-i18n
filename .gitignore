@@ -85,7 +85,7 @@ typings/
 #idea
 .idea
 
-dist/
+#dist/
 reports/
 bin/
 coverage/
